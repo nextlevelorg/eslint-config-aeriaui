@@ -11,7 +11,7 @@ $ npm install -D eslint eslint-config-aeriaui
 ```
 
 
-2. Create a `eslint.config.js` file in the root of your project containing the following:
+2. Create a `eslint.config.mjs` file in the root of your project containing the following:
 
 ```js
 // eslint.config.mjs

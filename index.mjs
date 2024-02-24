@@ -1,2 +1,3 @@
-export * from './eslint.config.mjs'
+import aeriaConfig from './eslint.config.mjs'
+export default aeriaConfig
 
