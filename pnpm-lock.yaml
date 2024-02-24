@@ -13,7 +13,7 @@ devDependencies:
     version: 0.1.27(@sonata-api/types@0.1.46)(bson@5.5.1)
   eslint-config-aeria:
     specifier: '*'
-    version: 0.0.26(@stylistic/eslint-plugin@1.6.2)(@typescript-eslint/eslint-plugin@6.21.0)
+    version: 0.0.27(@stylistic/eslint-plugin@1.6.2)(@typescript-eslint/eslint-plugin@6.21.0)
   eslint-plugin-vue:
     specifier: ^9.22.0
     version: 9.22.0(eslint@8.57.0)
@@ -524,8 +524,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-aeria@0.0.26(@stylistic/eslint-plugin@1.6.2)(@typescript-eslint/eslint-plugin@6.21.0):
-    resolution: {integrity: sha512-AE3dYmDut0w9UrcH4Bpk51wSfs/maMdJfodTm74alrfWQGBAnMoh10CZHGzje4p43uGaqX6aZqIY8KBSyA9rYw==}
+  /eslint-config-aeria@0.0.27(@stylistic/eslint-plugin@1.6.2)(@typescript-eslint/eslint-plugin@6.21.0):
+    resolution: {integrity: sha512-lqNkOmEGA7x4StQTJXjslBVlWyh/rHxmequS0qrY/h6XbNTlHI2z8BNjCPppzOwKoBhonIse/JjNOXU/i2LgoQ==}
     peerDependencies:
       '@stylistic/eslint-plugin': ^1.5.1
       '@typescript-eslint/eslint-plugin': ^6.16.0
