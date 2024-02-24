@@ -35,6 +35,9 @@ export default [].concat(
     rules: {
       'vue/require-default-prop': 0,
       'vue/multi-word-component-names': 0,
+      'vue/no-mutating-props': ['error', {
+        shallowOnly: true
+      }],
       'vue/no-v-html': 0,
     }
   },
