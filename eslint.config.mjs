@@ -33,7 +33,9 @@ export default [].concat(
   aeriaUiConfig,
   {
     rules: {
-      'vue/multi-word-component-names': 0
+      'vue/require-defalt-prop': 0,
+      'vue/multi-word-component-names': 0,
+      'vue/no-v-html': 0,
     }
   },
   {
