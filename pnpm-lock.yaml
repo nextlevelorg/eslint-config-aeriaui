@@ -9,11 +9,11 @@ devDependencies:
     specifier: ^3.0.2
     version: 3.0.2
   '@sonata-api/common':
-    specifier: ^0.1.27
+    specifier: '*'
     version: 0.1.27(@sonata-api/types@0.1.46)(bson@5.5.1)
   eslint-config-aeria:
     specifier: '*'
-    version: 0.0.24(@stylistic/eslint-plugin@1.6.2)(@typescript-eslint/eslint-plugin@6.21.0)
+    version: 0.0.26(@stylistic/eslint-plugin@1.6.2)(@typescript-eslint/eslint-plugin@6.21.0)
   eslint-plugin-vue:
     specifier: ^9.22.0
     version: 9.22.0(eslint@8.57.0)
@@ -229,8 +229,8 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-  /@types/semver@7.5.7:
-    resolution: {integrity: sha512-/wdoPq1QqkSj9/QOeKkFquEuPzQbHTWAMPH/PaUMB+JuR31lXhlWXRZ52IpfDYVlDOUBvX09uBrPwxGT1hjNBg==}
+  /@types/semver@7.5.8:
+    resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
     dev: true
 
   /@typescript-eslint/eslint-plugin@6.21.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.3.3):
@@ -346,7 +346,7 @@ packages:
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.57.0)
       '@types/json-schema': 7.0.15
-      '@types/semver': 7.5.7
+      '@types/semver': 7.5.8
       '@typescript-eslint/scope-manager': 6.21.0
       '@typescript-eslint/types': 6.21.0
       '@typescript-eslint/typescript-estree': 6.21.0(typescript@5.3.3)
@@ -524,8 +524,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-aeria@0.0.24(@stylistic/eslint-plugin@1.6.2)(@typescript-eslint/eslint-plugin@6.21.0):
-    resolution: {integrity: sha512-aCeCsYvX6e7LkSF4y7JJ+KteaGZ7dZMAcB3sZNZGcauxuXEXcc9SZPp/6k6TdlBGRqqtOMFEM5XR8npy8Gundw==}
+  /eslint-config-aeria@0.0.26(@stylistic/eslint-plugin@1.6.2)(@typescript-eslint/eslint-plugin@6.21.0):
+    resolution: {integrity: sha512-AE3dYmDut0w9UrcH4Bpk51wSfs/maMdJfodTm74alrfWQGBAnMoh10CZHGzje4p43uGaqX6aZqIY8KBSyA9rYw==}
     peerDependencies:
       '@stylistic/eslint-plugin': ^1.5.1
       '@typescript-eslint/eslint-plugin': ^6.16.0
