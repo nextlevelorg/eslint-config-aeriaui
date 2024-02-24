@@ -16,14 +16,12 @@
   ],
   "devDependencies": {
     "@eslint/eslintrc": "^3.0.2",
-    "@typescript-eslint/parser": "^7.0.2",
-    "eslint-config-aeria": "^0.0.22",
-    "vue-eslint-parser": "^9.4.2"
+    "eslint-config-aeria": "*",
+    "eslint-plugin-vue": "^9.22.0"
   },
   "peerDependencies": {
     "@eslint/eslintrc": "^3.0.2",
-    "@typescript-eslint/parser": "^7.0.2",
-    "eslint-config-aeria": "^0.0.22",
-    "vue-eslint-parser": "^9.4.2"
+    "eslint-config-aeria": "*",
+    "eslint-plugin-vue": "^9.22.0"
   }
 }
