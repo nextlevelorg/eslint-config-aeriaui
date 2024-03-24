@@ -22,7 +22,7 @@
   },
   "peerDependencies": {
     "@eslint/eslintrc": "^3.0.2",
-    "@sonata-api/common": "*",
+    "@aeriajs/common": "*",
     "eslint-config-aeria": "*",
     "eslint-plugin-vue": "^9.22.0"
   }

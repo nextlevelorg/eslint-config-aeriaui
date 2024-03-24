@@ -1,6 +1,6 @@
 import { fileURLToPath } from 'url'
 import { FlatCompat } from '@eslint/eslintrc'
-import { deepMerge } from '@sonata-api/common'
+import { deepMerge } from '@aeriajs/common'
 import parserVue from 'vue-eslint-parser'
 import parserTs from '@typescript-eslint/parser'
 import aeriaConfig from 'eslint-config-aeria'
