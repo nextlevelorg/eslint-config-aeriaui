@@ -16,14 +16,13 @@
   ],
   "devDependencies": {
     "@eslint/eslintrc": "^3.0.2",
-    "@sonata-api/common": "*",
-    "eslint-config-aeria": "*",
+    "eslint-config-aeria": "0.0",
     "eslint-plugin-vue": "^9.22.0"
   },
   "peerDependencies": {
     "@eslint/eslintrc": "^3.0.2",
-    "@aeriajs/common": "*",
-    "eslint-config-aeria": "*",
+    "@aeriajs/common": "0.0",
+    "eslint-config-aeria": "0.0",
     "eslint-plugin-vue": "^9.22.0"
   }
 }
